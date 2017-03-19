@@ -187,7 +187,7 @@ if ( ! function_exists( 'clean_commerce_footer_copyright' ) ) :
 		}
 
 		// Powered by content.
-		$powered_by_text = sprintf( esc_html__( 'Clean Commerce by %s', 'clean-commerce' ), '<a target="_blank" rel="designer" href="http://wenthemes.com/">' . esc_html__( 'WEN Themes', 'clean-commerce' ) . '</a>' );
+		$powered_by_text = sprintf( esc_html__( 'Powered by %s', 'bdlions' ), '<a target="_blank" rel="designer" href="">' . esc_html__( 'bdlions', 'clean-commerce' ) . '</a>' );
 
 		$show_social_in_footer = clean_commerce_get_option( 'show_social_in_footer' );
 
